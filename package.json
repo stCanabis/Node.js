@@ -5,11 +5,25 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stCanabis/Node.js.git",
+    "body-parser": "^1.18.3",
+    "nodemon": "^1.18.6"
+  },
+  "bugs": {
+    "url": "https://github.com/stCanabis/Node.js/issues"
+  },
+  "homepage": "https://github.com/stCanabis/Node.js#readme"
 }
